@@ -1,0 +1,35 @@
+Model
+  Parameters
+! modified parameters / true parameters
+    lg10_kr1 = log10(110000)           !5
+    lg10_kr2 = log10(0.09)  !log10(0.1)
+    lg10_kr3 = log10(1.9e-7) !log10(2e-7)
+    lg10_kr4 = log10(0.55)  !log10(0.5)
+    lg10_kr5 = log10(4.5)    !log10(5) 
+    lg10_kr6 = log10(110)  !log10(100)  
+  End Parameters
+
+  Intermediates
+    kr1 = 10^lg10_kr1
+    kr2 = 10^lg10_kr2
+    kr3 = 10^lg10_kr3
+    kr4 = 10^lg10_kr4
+    kr5 = 10^lg10_kr5
+    kr6 = 10^lg10_kr6
+  End Intermediates
+
+  Variables
+    H = 1e6    ! healthy cells 1e6
+    V = 1e2    ! virus 1e2
+    I = 0    ! infected cells 0
+    LV = 2
+  End Variables
+
+  Equations
+
+    $H = kr1 - kr2*H - kr3*H*V
+    $I = kr3*H*V - kr4*I
+    $V = -kr3*H*V - kr5*V + kr6*I
+    LV = log10(V)
+  End Equations
+End Model

@@ -1,0 +1,145 @@
+ IMODE 5
+ 
+  ----------------------------------------------------------------
+ APMonitor, Version 0.7.0
+ Software Trial
+ ----------------------------------------------------------------
+ 
+ 
+ --------- APM Model Size ------------
+ Each time step contains
+   Objects      :  0
+   Constants    :  0
+   Variables    :  10
+   Intermediates:  6
+   Connections  :  0
+   Equations    :  10
+   Residuals    :  4
+ 
+ files: ss.t0 does not exist
+ Variable time shift OFF
+ Number of state variables:    843
+ Number of total equations: -  840
+ Number of slack variables: -  0
+ ---------------------------------------
+ Degrees of freedom       :    3
+ 
+ ----------------------------------------------
+ Dynamic Estimation with APOPT Solver
+ ----------------------------------------------
+ 
+ Iter    Objective  Convergence
+    0  3.02501E+02  2.00423E-07
+    1  3.01744E+02  3.35676E-03
+    2  2.99511E+02  4.72304E-04
+    3  2.99055E+02  4.23444E-03
+    4  2.98973E+02  3.81567E-04
+    5  2.98953E+02  6.87794E-05
+    6  2.98952E+02  6.13250E-05
+    7  2.98952E+02  3.62386E-06
+    8  2.98952E+02  1.86320E-07
+ Successful solution
+ 
+ ---------------------------------------------------
+ Solver         :  APOPT (v1.0)
+ Solution time  :  0.21799999999999997 sec
+ Objective      :  298.9517901521329
+ Successful solution
+ ---------------------------------------------------
+ 
+ 
+
+
+IMODE 8
+
+--------- APM Model Size ------------
+ Each time step contains
+   Objects      :  0
+   Constants    :  0
+   Variables    :  10
+   Intermediates:  6
+   Connections  :  0
+   Equations    :  10
+   Residuals    :  4
+ 
+ files: ss.t0 does not exist
+ Variable time shift OFF
+ Number of state variables:    843
+ Number of total equations: -  840
+ Number of slack variables: -  0
+ ---------------------------------------
+ Degrees of freedom       :    3
+ 
+ ----------------------------------------------
+ Sequential Estimation with APOPT Solver
+ ----------------------------------------------
+ 
+ Iter    Objective  Convergence
+    0  3.08118E+02  2.00423E-07
+ Successful solution
+ ----------------------------------------------
+ Sequential Estimation with APOPT Solver
+ ----------------------------------------------
+ 
+ Iter    Objective  Convergence
+    0  3.65081E+03  1.14232E-01
+    1  1.82430E+03  2.20149E-01
+    2  3.32857E+02  5.03600E-02
+    3  3.18825E+02  4.76491E-03
+    4  3.18819E+02  2.33887E-05
+    5  3.18819E+02  3.73384E-10
+ Successful solution
+Reducing search step to:      0.500000
+ ----------------------------------------------
+ Sequential Estimation with APOPT Solver
+ ----------------------------------------------
+ 
+ Iter    Objective  Convergence
+    0  2.22332E+03  6.08583E-02
+    1  4.54703E+02  4.79116E-02
+    2  3.01953E+02  9.35394E-03
+    3  3.01936E+02  1.02247E-04
+    4  3.01936E+02  5.46907E-09
+    5  3.01936E+02  1.50990E-14
+ Successful solution
+ ----------------------------------------------
+ Sequential Estimation with APOPT Solver
+ ----------------------------------------------
+ 
+ Iter    Objective  Convergence
+    0  3.00521E+02  3.69703E-02
+    1  3.05680E+02  5.13140E-03
+    2  2.99125E+02  1.51580E-03
+    3  2.99124E+02  4.99809E-06
+    4  2.99124E+02  1.87368E-11
+ Successful solution
+ ----------------------------------------------
+ Sequential Estimation with APOPT Solver
+ ----------------------------------------------
+ 
+ Iter    Objective  Convergence
+    0  9.56805E+02  3.18822E-03
+    1  2.98953E+02  8.12462E-04
+    2  2.98952E+02  3.16567E-07
+    3  2.98952E+02  9.85878E-14
+ Successful solution
+ ----------------------------------------------
+ Sequential Estimation with APOPT Solver
+ ----------------------------------------------
+ 
+ Iter    Objective  Convergence
+    0  2.98952E+02  5.46729E-04
+    1  2.98952E+02  1.55358E-06
+    2  2.98952E+02  3.23386E-12
+ Successful solution
+Objective change less than 1000 * NLC.OTOL =      1.00E-03
+ 
+ ---------------------------------------------------
+ Sequential solve with solver  1
+ Solution time  :  0.7130000000000001 sec
+ Objective      :  298.9517923046808
+ Successful solution
+ ---------------------------------------------------
+ 
+ 
+ 
